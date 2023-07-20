@@ -1,12 +1,13 @@
 import React from 'react'
 import './app.css'
 // import LongPulling from './LongPulling'
-import EventSource from './EventSource'
+// import EventSource from './EventSource'
+import WebSocke from './WebSocket'
 
 function App() {
   return (
     <div>
-      <EventSource />
+      <WebSocke />
     </div>
   )
 }

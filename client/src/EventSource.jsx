@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
 
-const LongPulling = () => {
+const EventSource = () => {
     const [messages, setMessages] = useState([]);
     const [value, setValue] = useState('');
 
@@ -44,4 +44,4 @@ const LongPulling = () => {
     );
 };
 
-export default LongPulling;
+export default EventSource;
