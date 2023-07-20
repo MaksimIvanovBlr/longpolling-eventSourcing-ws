@@ -1,11 +1,12 @@
 import React from 'react'
 import './app.css'
-import LongPulling from './LongPulling'
+// import LongPulling from './LongPulling'
+import EventSource from './EventSource'
 
 function App() {
   return (
     <div>
-      <LongPulling />
+      <EventSource />
     </div>
   )
 }

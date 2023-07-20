@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start-long": "nodemon longpulling.js",
-    "start-ws": "nodemon longpulling.js",
-    "start-event": "nodemon longpulling.js",
+    "start-event": "nodemon eventsource.js",
+    "start-ws": "nodemon eventsource.js",
 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
